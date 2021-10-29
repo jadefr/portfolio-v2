@@ -78,9 +78,45 @@
   font-size: 1.7rem;
 }
 
+.card_container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 2rem;
+}
+
+.text_block {
+  margin-left: 3rem;
+  font-weight: lighter;
+}
+
+.text_block h4,
+.text_block h5,
+.text_block h6 {
+  font-weight: lighter;
+}
+
+.text_block h5 {
+  color: #ff6a00;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
+    flex-direction: column;
+  }
+  .tech {
     flex-direction: column;
   }
 }
