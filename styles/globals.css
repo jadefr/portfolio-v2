@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #dcdcdc;
+  background-color: #292929;
 }
 
 a {
@@ -14,3 +16,6 @@ a {
 * {
   box-sizing: border-box;
 }
+
+::-moz-selection { background: rgba(250, 25, 85, 0.78); }
+::selection { background: rgba(250, 25, 85, 0.78); }
