@@ -11,6 +11,7 @@ const Education = () => {
             </Head>
 
             <h2 className={styles.subtitle}>Education</h2>
+
             <main className={styles.main}>
                 <p className="text-center">Deleniti illum ipsam saepe. Ab asperiores cumque debitis ea esse et magnam.</p>
             </main>

@@ -44,6 +44,7 @@
 .subtitle {
   padding-top: 2.5rem;
   font-size: 3rem;
+  font-weight: lighter;
 }
 
 .grid {
@@ -93,7 +94,7 @@
 .card {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .text_block {
@@ -111,12 +112,38 @@
   color: #ff6a00;
 }
 
+.text_block h5::selection { background: white; }
+
+.a_work:hover {
+  color: white;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+
   .tech {
     flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4.3rem;
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
+  }
+
+  .text_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    padding-top: 1.5rem;
+    margin-left: 0;
   }
 }

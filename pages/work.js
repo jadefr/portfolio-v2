@@ -18,7 +18,7 @@ const Work = () => {
                     <div className={styles.card}>
                         <Image src="/inatel.jpg" alt="Inatel Logo" width={238.5} height={123} />
                         <div className={styles.text_block}>
-                            <a href="https://inatel.br/">
+                            <a href="https://inatel.br/" className={styles.a_work} target="_blank" rel="noopener noreferrer">
                                 <h4 className={styles.h4}>Instituto Nacional de Telecomunicações</h4>
                             </a>
                             <h5>Java Developer</h5>
@@ -32,7 +32,7 @@ const Work = () => {
                             <Image src="/tentaculo.png" alt="Tentaculo Digital Logo" width={100} height={100} />
                         </div>
                         <div className={styles.text_block}>
-                            <a href="https://tentaculo.digital/">
+                            <a href="https://tentaculo.digital/" className={styles.a_work} target="_blank" rel="noopener noreferrer">
                                 <h4>Tentáculo.Digital</h4>
                             </a>
                             <h5>Java Developer</h5>
@@ -46,7 +46,7 @@ const Work = () => {
                             <Image src="/hicss.jpg" alt="HICSS Logo" width={150} height={75} />
                         </div>
                         <div className={styles.text_block}>
-                            <a href="https://hicss.hawaii.edu/">
+                            <a href="https://hicss.hawaii.edu/" className={styles.a_work} target="_blank" rel="noopener noreferrer">
                                 <h4>HICSS</h4>
                             </a>
                             <h5>Guest Reviewer</h5>
@@ -59,7 +59,7 @@ const Work = () => {
                             <Image src="/huawei.png" alt="Huawei Logo" width={100} height={100} />
                         </div>
                         <div className={styles.text_block}>
-                            <a href="https://www.huawei.com/br/">
+                            <a href="https://www.huawei.com/br/" className={styles.a_work} target="_blank" rel="noopener noreferrer">
                                 <h4>Huawei Technologies</h4>
                             </a>
                             <h5>Microwave Engineer - Internship</h5>
