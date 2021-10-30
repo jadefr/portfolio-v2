@@ -13,9 +13,9 @@ const Work = () => {
             <h2 className={styles.subtitle}>Work Experience</h2>
             <main className={styles.main}>
 
-                <div className={styles.card_container}>
+                <div className={styles.text_box}>
 
-                    <div className={styles.card}>
+                    <div className={styles.text}>
                         <a href="https://inatel.br/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>Instituto Nacional de Telecomunicações</h4>
@@ -30,7 +30,7 @@ const Work = () => {
                         </p>
                     </div>
 
-                    <div className={styles.card}>
+                    <div className={styles.text}>
                         <a href="https://tentaculo.digital/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>Tentáculo.Digital</h4>
@@ -40,7 +40,7 @@ const Work = () => {
                         <p>Outsourced to a FinTech</p>
                     </div>
 
-                    <div className={styles.card}>
+                    <div className={styles.text}>
                         <a href="https://hicss.hawaii.edu/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>HICSS</h4>
@@ -49,7 +49,7 @@ const Work = () => {
                         <h6>July 2019 - Aug 2019</h6>
                     </div>
 
-                    <div className={styles.card}>
+                    <div className={styles.text}>
                         <a href="https://www.huawei.com/br/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>Huawei Technologies</h4>

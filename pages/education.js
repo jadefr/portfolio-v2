@@ -15,18 +15,22 @@ const Education = () => {
 
             <main className={styles.main}>
 
-                <div className={styles.card_container}>
+                <div className={styles.text_box}>
 
-                    <div className={styles.card}>
+                    <div className={styles.text}>
                         <a href="https://inatel.br/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>Universidade Federal de Juiz de Fora</h4>
                         </a>
                         <h5>Master of Science - Software Engineer</h5>
                         <h6>2017 - 2019</h6>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8791911" className={styles.a_section} target="_blank"
+                           rel="noopener noreferrer">
+                            <p>Published Paper</p>
+                        </a>
                     </div>
 
-                    <div className={styles.card}>
+                    <div className={styles.text}>
                         <a href="https://tentaculo.digital/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>Universidade Federal Fluminense</h4>
@@ -35,7 +39,7 @@ const Education = () => {
                         <h6>2010 - 2016</h6>
                     </div>
 
-                    <div className={styles.card}>
+                    <div className={styles.text}>
                         <a href="https://hicss.hawaii.edu/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>National University of Ireland, Maynooth</h4>
