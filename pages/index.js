@@ -32,13 +32,6 @@ export default function Home() {
                 </div>
             </main>
 
-            {/*<footer className={styles.footer}>*/}
-            {/*    Developed by Jade Ferreira*/}
-                {/*<span className={styles.logo}>*/}
-                {/*  <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />*/}
-                {/*</span>*/}
-
-            {/*</footer>*/}
         </div>
     )
 }
