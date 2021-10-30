@@ -80,8 +80,9 @@
 }
 
 .card_container {
-  display: grid;
-  grid-template-columns: 1fr;
+  text-align: center;
+  /*display: grid;*/
+  /*grid-template-columns: 1fr;*/
 }
 
 .image {
@@ -113,8 +114,12 @@
 
 .card h5::selection { background: white; }
 
-.a_work:hover {
+.a_section:hover {
   color: white;
+}
+
+.eric_span {
+  margin-left: 0.3rem;
 }
 
 @media (max-width: 600px) {
