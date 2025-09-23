@@ -15,7 +15,6 @@ const Nav = () => {
                 <Link href="/" className={styles.logo}>
                     <div>
                         <span className={styles.logoText}>Jade Ferreira</span>
-                        <span className={styles.logoSubtext}>Backend Engineer</span>
                     </div>
                 </Link>
 

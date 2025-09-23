@@ -39,7 +39,7 @@ export default function Home() {
                         </h2>
                         <p className={styles.heroDescription}>
                             I build scalable, robust backend systems and microservices. 
-                            Passionate about clean code, system design, and solving complex problems.
+                            Passionate about system design, continuous delivery, cyber security, and solving complex problems.
                         </p>
                         <div className={styles.heroButtons}>
                             <a href="#about" className={styles.primaryButton}>
