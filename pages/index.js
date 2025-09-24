@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
     const skills = [
@@ -42,12 +43,12 @@ export default function Home() {
                             Passionate about system design, continuous delivery, cyber security, and solving complex problems.
                         </p>
                         <div className={styles.heroButtons}>
-                            <a href="#about" className={styles.primaryButton}>
-                                Learn More
-                            </a>
-                            <a href="/projects" className={styles.secondaryButton}>
-                                View Projects
-                            </a>
+                            <div>
+                                <Link href="#about" className={styles.primaryButton}>Learn More</Link>
+                            </div>
+                            <div>
+                                <Link href="/projects" className={styles.secondaryButton}>View Projects</Link>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.heroVisual}>

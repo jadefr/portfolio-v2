@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
@@ -14,26 +15,26 @@ const Footer = () => {
                 <div className={styles.footerSection}>
                     <h4 className={styles.footerSubtitle}>Quick Links</h4>
                     <ul className={styles.footerLinks}>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="/work">Experience</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/education">Education</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><Link href="#about">About</Link></li>
+                        <li><Link href="/work">Experience</Link></li>
+                        <li><Link href="/projects">Projects</Link></li>
+                        <li><Link href="/education">Education</Link></li>
+                        <li><Link href="#contact">Contact</Link></li>
                     </ul>
                 </div>
                 
                 <div className={styles.footerSection}>
                     <h4 className={styles.footerSubtitle}>Connect</h4>
                     <div className={styles.socialLinks}>
-                        <a href="https://linkedin.com/in/jade-ferreira" className={styles.socialLink}>
+                        <Link href="https://linkedin.com/in/jade-ferreira" className={styles.socialLink}>
                             LinkedIn
-                        </a>
-                        <a href="https://github.com/jade-ferreira" className={styles.socialLink}>
+                        </Link>
+                        <Link href="https://github.com/jade-ferreira" className={styles.socialLink}>
                             GitHub
-                        </a>
-                        <a href="mailto:jade@example.com" className={styles.socialLink}>
+                        </Link>
+                        <Link href="mailto:jade@example.com" className={styles.socialLink}>
                             Email
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
